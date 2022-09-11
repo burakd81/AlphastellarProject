@@ -8,7 +8,7 @@ namespace Business.Abstract
     public interface ICarService
     {
         List<Car> GetCarsbyColor(string color);
-        bool UpdateCarbyCarId(int carId);
+        bool OnOffHeadLights(int carId);
         bool DeleteCarbyCarId(int carId);
     }
 }
